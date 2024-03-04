@@ -1,0 +1,219 @@
+.top{
+    background-color: red;
+    text-align: center;
+    margin: 0px;
+    position:sticky;
+    top:0; /* must be specified for working*/
+/*     
+    width:10% ;
+    margin-top:0;
+    margin:0 auto 0 auto;  circular permutation */
+    /* doing this will cause images to longer be centered
+    but we can fix this by making centering using margins */
+}
+body{
+    margin:0px;
+    background-color: red;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size:150%
+}
+h1{
+    margin-top: 20px;
+    margin-bottom:0px;
+    font-family: "Alex Brush", cursive;
+    font-size: 250%; /*100 %=16px*/
+    
+    
+
+}
+.joker{
+    border:10px;
+    border-style:outset;
+   position: relative;
+   top: 10px;
+    /*left: 30px;  makes it move 30 px to right of where it would have beeN. 30 px from the left of position
+    this wont move other elements */
+     /* position: absolute;
+   right :30px;  makes  makes it move relative 30px wrt to the parent in this case the div */
+    
+}
+/* .crowwhite{
+    border:10px;
+    border-style:inset;
+   position: relative;
+   top:10px;
+   height: 225px;
+   width: 225px;
+} */
+.college{
+    text-decoration: underline;
+}
+.skull{
+    border: 10px;
+    border-style:outset;
+    position: absolute;
+    left: 1260px;
+
+}
+.mona
+{
+    border: 10px;
+    border-style:outset;
+    position: absolute;
+    left: 30px;
+}
+.panther
+{
+    border:10px;
+    border-style:outset;
+    position: absolute;
+    left: 30px;
+    top:692px;
+}
+.fox
+{
+    border:10px;
+    border-style:outset;
+    position: absolute;
+    left: 1260px;
+    top: 692px;
+}
+.queen
+{
+    border: 10px;
+    border-style:outset;
+    position: absolute;
+    top: 945px;
+    left: 30px;
+}
+.oracle
+{
+    border: 10px;
+    border-style:outset;
+    position: absolute;
+    height: 225px;
+    width: 225px;
+    top: 945px;
+    left: 1260px;
+}
+.noire
+{
+    border: 10px;
+    border-style:outset;
+    position: absolute;
+    left:30px;
+    top:1200px;
+}   
+.violet
+{
+    border: 10px;
+    border-style:outset;
+    position: absolute;
+    left:1260px;
+    top:1200px;
+    height: 225px;
+    width: 225px;
+}
+.about{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+    text-decoration: underline;
+    
+    
+}
+.aboutme
+{
+    display: block;
+    text-align: centre;
+    margin-left: auto;  /* used to center a paragraph ,table etc*/
+    margin-right: auto;  
+    width:50%; /*scalings occur based on size on parent element in this case it is size of the div middle*/
+    border: 5px;
+    border-style: dashed;
+    
+
+}
+.skills
+{
+    font-size: 200%;
+    text-decoration:solid;
+    text-decoration: underline;
+}
+.bottom
+{
+   text-align: center; 
+}
+.crowwhite
+{
+    border: 10px;
+    border-style:outset;
+    height: 225px;
+    width:225px;
+   
+}
+.crowblack
+{
+    border: 10px;
+    border-style:outset;
+    height: 225px;
+    width:225px;
+}
+hr{
+    border-style: none;
+    border-top-style: dashed;
+    border-color: black;
+    border-width: 3px;
+    
+}
+.contact{
+    background-color: black;
+    text-align: center;
+    height: 110px;
+    font-size: 100%;
+    color: aliceblue;
+    padding-top: 50px; /* vertical alignment using padding*/
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.btn {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #000000);
+    background-image: -moz-linear-gradient(top, #000000, #000000);
+    background-image: -ms-linear-gradient(top, #000000, #000000);
+    background-image: -o-linear-gradient(top, #000000, #000000);
+    background-image: linear-gradient(to bottom, #000000, #000000);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat','Arial';
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  a{
+    color: #ffffff;
+    margin-right: 10px;
+    margin-left:10px;
+    text-decoration: none;
+    
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+
+/* border reduces size of div while padding increases it*/
+/* we can change the display property to inline*/
+/* changing image float property to leftwill make text go to right of it and wraP about it
+clear will work oppositely to float and remove it*/
